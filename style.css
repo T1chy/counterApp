@@ -53,6 +53,9 @@ button {
     margin: auto;
     border: 3px solid black;
     border-radius: 10px;
+    disable-dbl-tap-zoom {
+    touch-action: manipulation;
+      }
 }
 
 
