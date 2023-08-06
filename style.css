@@ -39,10 +39,16 @@ button {
 
 #increment-btn {
     background: #808015;
+    disable-dbl-tap-zoom {
+        touch-action: manipulation;
+      }
 }
 
 #save-btn {
     background: #99A637;
+    disable-dbl-tap-zoom {
+        touch-action: manipulation;
+      }
 }
 
 #save-el {
