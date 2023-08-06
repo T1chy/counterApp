@@ -29,6 +29,9 @@ button {
     width: 200px;
     margin-bottom: 5px;
     border-radius: 5px;
+    disable-dbl-tap-zoom {
+    touch-action: manipulation;
+      }
 }
 
 #increment-btn {
