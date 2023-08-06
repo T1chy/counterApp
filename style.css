@@ -4,6 +4,9 @@ body {
     font-family: 'Tektur';
     text-align: center;
     height: 100vh;
+    disable-dbl-tap-zoom {
+        touch-action: manipulation;
+      }
 }
 
 
